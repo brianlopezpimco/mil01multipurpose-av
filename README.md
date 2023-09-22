@@ -1,20 +1,20 @@
 # **MIL 01-Multipurpose Room: AV Systems Files**
 
-[Biamp DSP System Files](https://github.com/brianlopezpimco/nb03ocean-av#biamp-dsp-system-files) contain the audio dsp program that controls how the AV system's audio is proccessed. To replace or upload a new DSP program to a processor, follow the [Biamp DSP System Files Installation](https://github.com/brianlopezpimco/nb03ocean-av#biamp-dsp-system-files-installation) section below.
+[Biamp DSP System Files](https://github.com/brianlopezpimco/mil01multipurpose-av#biamp-dsp-system-files) contain the audio dsp program that controls how the AV system's audio is proccessed. To replace or upload a new DSP program to a processor, follow the [Biamp DSP System Files Installation](https://github.com/brianlopezpimco/mil01multipurpose-av#biamp-dsp-system-files-installation) section below.
 
-[Cisco User Interface Extension Files](https://github.com/brianlopezpimco/nb03ocean-av#cisco-user-interface-extension-files) contain the room controls ui for the Cisco navigator touch panel. To replace or upload new user interface extensions to a codec, follow the [Cisco User Interface Extension Files Installation](https://github.com/brianlopezpimco/nb03ocean-av#cisco-user-interface-extension-files-installation) section below.
+[Cisco User Interface Extension Files](https://github.com/brianlopezpimco/mil01multipurpose-av#cisco-user-interface-extension-files) contain the room controls ui for the Cisco navigator touch panel. To replace or upload new user interface extensions to a codec, follow the [Cisco User Interface Extension Files Installation](https://github.com/brianlopezpimco/mil01multipurpose-av#cisco-user-interface-extension-files-installation) section below.
 
-[Crestron Control System Files](https://github.com/brianlopezpimco/nb03ocean-av#crestron-control-system-files) contain the control system program that controls the behavior of the AV system and it's components. To replace or upload new control system code to a processor, follow the [Crestron Control System Files Installation](https://github.com/brianlopezpimco/nb03ocean-av#crestron-control-system-files-installation) section below.
+[Crestron Control System Files](https://github.com/brianlopezpimco/mil01multipurpose-av#crestron-control-system-files) contain the control system program that controls the behavior of the AV system and it's components. To replace or upload new control system code to a processor, follow the [Crestron Control System Files Installation](https://github.com/brianlopezpimco/mil01multipurpose-av#crestron-control-system-files-installation) section below.
 
 ## **TABLE OF CONTENTS:**
 
-- [Biamp DSP System Files](https://github.com/brianlopezpimco/nb03ocean-av#biamp-dsp-system-files)
-- [Biamp DSP System Files Installation](https://github.com/brianlopezpimco/nb03ocean-av#biamp-dsp-system-files-installation)
-- [Cisco User Interface Extension Files](https://github.com/brianlopezpimco/nb03ocean-av#cisco-user-interface-extension-files)
-- [Cisco User Interface Extension Files Installation](https://github.com/brianlopezpimco/nb03ocean-av#cisco-user-interface-extension-files-installation)
-- [Crestron Control System Files](https://github.com/brianlopezpimco/nb03ocean-av#crestron-control-system-files)
-- [Crestron Control System Files Installation](https://github.com/brianlopezpimco/nb03ocean-av#crestron-control-system-files-installation)
-- [Additional Resources](https://github.com/brianlopezpimco/nb03ocean-av#additional-resources)
+- [Biamp DSP System Files](https://github.com/brianlopezpimco/mil01multipurpose-av#biamp-dsp-system-files)
+- [Biamp DSP System Files Installation](https://github.com/brianlopezpimco/mil01multipurpose-av#biamp-dsp-system-files-installation)
+- [Cisco User Interface Extension Files](https://github.com/brianlopezpimco/mil01multipurpose-av#cisco-user-interface-extension-files)
+- [Cisco User Interface Extension Files Installation](https://github.com/brianlopezpimco/mil01multipurpose-av#cisco-user-interface-extension-files-installation)
+- [Crestron Control System Files](https://github.com/brianlopezpimco/mil01multipurpose-av#crestron-control-system-files)
+- [Crestron Control System Files Installation](https://github.com/brianlopezpimco/mil01multipurpose-av#crestron-control-system-files-installation)
+- [Additional Resources](https://github.com/brianlopezpimco/mil01multipurpose-av#additional-resources)
 
 ## **BIAMP DSP SYSTEM FILES:**
 
@@ -24,7 +24,7 @@ Biamp DSP program accepts preset commands from the control system. There is a mi
 
 ## **CISCO USER INTERFACE EXTENSION FILES:**
 
-### **03-Ocean-A Room Controls: Displays**
+### **01-Multipurpose-A&B Room Controls: Displays**
 
 ![03oceana-displays-pg](/IMAGES/nb03oceana-displays-pg.jpg)
 
@@ -33,46 +33,8 @@ Biamp DSP program accepts preset commands from the control system. There is a mi
 | Room Controls Panel           | roomcontrols-pnl         |
 | Displays Page                 | displays-pg              |
 | Main Display: On Button       | display01-on-btn         |
-| Projector: On Button          | display02-on-btn         |
-| Projector: Off Button         | display02-off-btn        |
-| Projector: Lift Up Button     | display02-liftup-btn     |
-| Projector: Lift Down Button   | display02-liftdown-btn   |
-| Projector: Screen Up Button   | display02-screenup-btn   |
-| Projector: Screen Down Button | display02-screendown-btn |
 
-### **03-Ocean-B&C Room Controls: Displays**
-
-![03oceanb-displays-pg](/IMAGES/nb03oceanb-displays-pg.jpg)
-
-| USER INTERFACE ELEMENT        | WIDGET ID                |
-| ----------------------------- | ------------------------ |
-| Room Controls Panel           | roomcontrols-pnl         |
-| Displays Page                 | displays-pg              |
-| Main Display: On Button       | display01-on-btn         |
-
-
-### **03-Ocean-A&B&C Room Controls: Lighting**
-
-![03ocean-lighting-pg](/IMAGES/nb03ocean-lighting-pg.jpg)
-
-| USER INTERFACE ELEMENT        | WIDGET ID             |
-| ----------------------------- | --------------------- |
-| Room Controls Panel           | roomcontrols-pnl      |
-| Lighting Page                 | lighting-pg           |
-| Overhead Lights: On Button    | lightzone01-on-btn    |
-| Overhead Lights: Off Button   | lightzone01-off-btn   |
-| Overhead Lights: Up Button    | lightzone01-up-btn    |
-| Overhead Lights: Down Button  | lightzone01-down-btn  |
-| Solar Shades: Open Button     | shadezone01-open-btn  |
-| Solar Shades: Close Button    | shadezone01-close-btn |
-| Solar Shades: Up Button       | shadezone01-up-btn    |
-| Solar Shades: Down Button     | shadezone01-down-btn  |
-| Blackout Shades: Open Button  | shadezone02-on-btn    |
-| Blackout Shades: Close Button | shadezone02-off-btn   |
-| Blackout Shades: Up Button    | shadezone02-op-btn    |
-| Blackout Shades: Down Button  | shadezone02-down-btn  |
-
-### **03-Ocean-A&B&C Room Controls: Combine**
+### **01-Multipurpose-A&B Room Controls: Combine**
 
 ![03ocean-combine-pg](/IMAGES/nb03ocean-combine-pg.jpg)
 
@@ -82,8 +44,6 @@ Biamp DSP program accepts preset commands from the control system. There is a mi
 | Combine Page                  | combine-pg               |
 | Standalone Mode Button        | combine-standalone-btn   |
 | Combine Rooms A & B Button    | combine-ab-btn           |
-| Combine Rooms B & C Button    | combine-bc-btn           |
-| Combine All Rooms Button      | combine-abc-btn          |
 
 ## **CISCO USER INTERFACE EXTENSION FILES INSTALLATION:**
 
