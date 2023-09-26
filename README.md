@@ -20,30 +20,22 @@
 
 Biamp DSP program accepts preset commands from the control system. There is a mixer block preset for each room configuration.
 
-![03oceana-displays-pg](/IMAGES/tesira-dsp.png)
+![tesira-dsp.png](/IMAGES/tesira-dsp.png)
 
 ## **CISCO USER INTERFACE EXTENSION FILES:**
 
-### **01-Multipurpose-A&B Room Controls: Displays**
+### **01-Multipurpose Room Controls: Combine**
 
-![03oceana-displays-pg](/IMAGES/nb03oceana-displays-pg.jpg)
-
-| USER INTERFACE ELEMENT        | WIDGET ID                |
-| ----------------------------- | ------------------------ |
-| Room Controls Panel           | roomcontrols-pnl         |
-| Displays Page                 | displays-pg              |
-| Main Display: On Button       | display01-on-btn         |
-
-### **01-Multipurpose-A&B Room Controls: Combine**
-
-![03ocean-combine-pg](/IMAGES/nb03ocean-combine-pg.jpg)
+![mil01multipurpose-combine-pg.jpg](/IMAGES/mil01multipurpose-combine-pg.jpg)
 
 | USER INTERFACE ELEMENT        | WIDGET ID                |
 | ----------------------------- | ------------------------ |
 | Room Controls Panel           | roomcontrols-pnl         |
 | Combine Page                  | combine-pg               |
 | Standalone Mode Button        | combine-standalone-btn   |
-| Combine Rooms A & B Button    | combine-ab-btn           |
+| Combine Mode Button           | combine-combine-btn      |
+
+![mil01multipurpose-combine-msg.jpg](/IMAGES/mil01multipurpose-combine-msg.jpg)
 
 ## **CISCO USER INTERFACE EXTENSION FILES INSTALLATION:**
 
@@ -73,17 +65,9 @@ Crestron SIMPL Windows program registers the CP4 with the endpoint for feedback,
 
 ![simpl-plus-cisco-codec.png](/IMAGES/simpl-plus-cisco-codec.png)
 
-**SIMPL+ Lighting Module:** Handles lighting widgets and executes Lutron lighting controller commands...
-
-![simpl-plus-lutron-qs.png](/IMAGES/simpl-plus-lutron-qs.png)
-
 **SIMPL+ Displays Module:** Handles display widgets and executes Samsung display commands...
 
 ![simpl-plus-samsung.png](/IMAGES/simpl-plus-samsung.png)
-
-**SIMPL+ Projector Module:** Handles projector widgets and executes NEC projector commands...
-
-![simpl-plus-nec-projector.png](/IMAGES/simpl-plus-nec-projector.png)
 
 **SIMPL+ Combine Module:** Handles room combine widgets, generates feedback for touch screens, executes biamp DSP presets, and nvx stream locations...
 
