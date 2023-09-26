@@ -1,0 +1,32 @@
+<Extensions>
+  <Version>1.11</Version>
+  <Panel>
+    <Order>2</Order>
+    <PanelId>roomcontrols-pnl</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreen</Location>
+    <Icon>Lightbulb</Icon>
+    <Name>Room Controls</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Room Combine</Name>
+      <Row>
+        <Name>01-Multipurpose Room:</Name>
+        <Widget>
+          <WidgetId>combine-standalone-btn</WidgetId>
+          <Name>Stand Alone Mode</Name>
+          <Type>Button</Type>
+          <Options>size=4</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>combine-combine-btn</WidgetId>
+          <Name>Combined Mode</Name>
+          <Type>Button</Type>
+          <Options>size=4</Options>
+        </Widget>
+      </Row>
+      <PageId>roommode-pg</PageId>
+      <Options>hideRowNames=0</Options>
+    </Page>
+  </Panel>
+</Extensions>
